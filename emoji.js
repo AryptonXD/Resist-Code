@@ -25,8 +25,8 @@ module.exports = {
     bug: "<:bug_hunter:1192316320126087188>"
   },
   util: {
-    enabled: "<:disabled:1192316117646065745>",
-    disabled: "<:enabled:1192316087610638396>",
+    enabled: "<:enabled:1192316087610638396>",
+    disabled: "<:disabled:1192316117646065745>",
     enabler: "<:not_enabled:1192315672311627826>",
     disabler: "<:not_disabled:1192315667928588301>",
     arrow: "<a:arrow_right:1192316566805684366>",
