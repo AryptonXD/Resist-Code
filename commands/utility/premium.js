@@ -261,7 +261,7 @@ module.exports = {
         break;
       case 'redeem':
         const redeemCode = args.slice(1).join(" ");
-        const data = await client.db12.get(`${redeemCode}`);
+        const data = await client.db12.get(redeemCode);
         const dataPremium = await client.db12.get(`${message.guild.id}_premium`);
         const premiumServer = await client.db12.get(`premium`);
         let alreadyPremium;
